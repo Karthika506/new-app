@@ -1,6 +1,6 @@
 import React from "react";
-import image from "../images/react-icon-small.png";
-function Navbar() {
+// import image from "../images/react-icon-small.png";
+function Navbar(props) {
   return (
     <nav className={props.darkMode ? "dark" : ""}>
       <img className="nav--logo_icon" src="./images/react-icon-small.png" />
